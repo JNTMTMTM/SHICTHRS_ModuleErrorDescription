@@ -35,6 +35,23 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 1015 | SHRJsonLoaderException | json_dict parameter must be a dictionary | 传入的json字典必须为字典 |
 | 1016 | SHRJsonLoaderException | file integrity check failed | 文件完整性校验失败 |
 
+### SHICTHRSCSVLoader模块
+
+| 错误代码 | 异常类 | 英文描述 | 中文描述 |
+|---------|--------|---------|---------|
+| 1017 | SHRCSVLoaderException | only .csv file is supported | 仅支持csv文件 |
+| 1018 | SHRCSVLoaderException | unable to find csv file | 无法找到csv文件 |
+| 1019 | SHRCSVLoaderException | unable to read csv file | 无法读取csv文件 |
+| 1020 | SHRCSVLoaderException | data must be a dictionary | csv写入数据源必须为字典 |
+| 1021 | SHRCSVLoaderException | only .csv file is supported | 仅支持csv文件 |
+| 1022 | SHRCSVLoaderException | unable to write csv file | 在核心接口中发生错误 |
+| 1023 | SHRCSVLoaderException | unable to write csv file | 在公共接口中发生错误 |
+| 1024 | SHRCSVLoaderException | data must be a list | csv插入的表头必须为列表 |
+| 1025 | SHRCSVLoaderException | only .csv file is supported | 仅支持csv文件 |
+| 1026 | SHRCSVLoaderException | unable to insert csv file | 在核心接口中发生错误 |
+| 1027 | SHRCSVLoaderException | unable to insert csv file | 在公共接口中发生错误 |
+
+
 ## 贡献
 
 欢迎提交新的错误代码定义或修改建议。请确保：
