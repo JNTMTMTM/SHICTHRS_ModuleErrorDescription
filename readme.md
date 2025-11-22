@@ -35,13 +35,6 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 1015 | SHRJsonLoaderException | json_dict parameter must be a dictionary | 传入的json字典必须为字典 |
 | 1016 | SHRJsonLoaderException | file integrity check failed | 文件完整性校验失败 |
 
-## 错误代码命名规则
-
-SHICTHRS项目错误代码遵循以下命名规则：
-
-- **1000-1999**: 配置与文件加载相关错误
-- **1000-1099**: SHICTHRSConfigLoader模块错误
-- **1100-1199**: SHICTHRSJsonLoader模块错误
 
 ## 使用方法
 
