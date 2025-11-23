@@ -63,22 +63,16 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 1033 | SHRLogCoreException | unable to record log | 无法记录日志 |
 | 1034 | SHRLogCoreException | unable to update log config file | 无法更新logcore配置文件 |
 
-## 贡献
+### SHICTHRSMACE模块
 
-欢迎提交新的错误代码定义或修改建议。请确保：
+| 错误代码 | 异常类 | 英文描述 | 中文描述 |
+|---------|--------|---------|---------|
+| 2000 | SHRMACEException | unable to get uuid | 系统uuid获取失败 |
+| 2001 | SHRMACEException | unable to get WindowsProductID | windows产品序列号获取失败 |
+| 2002 | SHRMACEException | unable to get CPU info | cpu信息获取失败 |
+| 2003 | SHRMACEException | unable to get CPU id | cpu序列号获取失败 |
+| 2004 | SHRMACEException | unable to get CPU vendor | cpu生产厂商获取失败 |
+| 2005 | SHRMACEException | unable to get MotherBoard info | 主板信息获取失败 |
+| 2006 | SHRMACEException | unable to get MotherBoard id | 主板序列号获取失败 |
+| 2007 | SHRMACEException | unable to get GPU info | 主板序列号获取失败 |
 
-1. 错误代码遵循现有编号规则
-2. 提供清晰的英文和中文描述
-3. 使用统一的格式提交Pull Request
-
-## 许可证
-
-本项目采用 GPL-3.0 许可证。
-
-## 联系方式
-
-如有疑问或建议，请联系SHICTHRS团队。
-
----
-
-*最后更新: 2025年11月22日*
