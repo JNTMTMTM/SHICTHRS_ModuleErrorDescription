@@ -93,6 +93,7 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 3000.1.0 | SHRENCRException | only support file | 传入的路径必须指向文件 |
 | 3000.1.1 | SHRENCRException | file not found | 找不到路径指向的文件 |
 | 3000.1.2 | SHRENCRException | unable to get file hash code | 无法获取文件哈希值 |
+| 3000.2 | SHRENCRException | unable to get hash code mask | 无法获取哈希值遮罩 |
 | 3001 | SHRENCRException | unable to encrypt base64 code | 无法将字符串加密为base64字符 |
 | 3002 | SHRENCRException | unable to decrypt base64 code | 无法将base64字符串解密为一般字符串 |
 | 3003 | SHRENCRException | unable to check identity number | 校验身份证号时发生错误 |
