@@ -82,4 +82,6 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 2010 | SHRMACEException | unable to get disk id | 硬盘序列号获取失败 |
 | 2011 | SHRMACEException | unable to get memory info | 内存信息获取失败 |
 | 2012 | SHRMACEException | unable to get MAC info | 网卡物理描述地址获取失败 |
+| 2013 | SHRMACEException | error occurred while getting creating threads pool | 创建异步线程池时发生错误 |
+| 2013 | SHRMACEException | error occurred while getting mace info | 获取MACE信息时发生错误 |
 
