@@ -81,4 +81,5 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 2009.1 | SHRMACEException | error occurred while getting disk DISK_PARTITION info | 在读取硬盘分区信息时发生错误 |
 | 2010 | SHRMACEException | unable to get disk id | 硬盘序列号获取失败 |
 | 2011 | SHRMACEException | unable to get memory info | 内存信息获取失败 |
+| 2012 | SHRMACEException | unable to get MAC info | 网卡物理描述地址获取失败 |
 
