@@ -124,4 +124,18 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 4002.1 | SHRWindowsDefenderManagerException | failed to disable Windows Defender | 无法通过修改注册表方式禁用 Windows Defender |
 | 4002.2 | SHRWindowsDefenderManagerException | unable to disable Windows Defender | 无法禁用 Windows Defender |
 
+### SHICTHRSVTChecker 模块
+
+| 错误代码 | 异常类 | 英文描述 | 中文描述 |
+|---------|--------|---------|---------|
+| 5000 | SHRVTCheckerException | no result output | powershell 无输出 |
+| 5000.1 | SHRVTCheckerException | an invalid parameter was output | VirtualizationFirmware powershell 输出了一个无效的参数 |
+| 5001 | SHRVTCheckerException | unable to get virtualization firmware status | 无法获取 virtualization firmware 状态 |
+| 5001.0 | SHRVTCheckerException | an invalid parameter was output | powershell 输出了一个无效的参数 |
+| 5002 | SHRVTCheckerException | unable to get data execution prevention status | 无法获取 data execution prevention 状态 |
+| 5002.0 | SHRVTCheckerException | an invalid parameter was output | DEP powershell 输出了一个无效的参数 |
+| 5002.1 | SHRVTCheckerException | unable to get nx_supported status | 无法通过 WindowsApi 获取NX服务状态 |
+| 5002.2 | SHRVTCheckerException | unable to get DEP_Strategy/DEP_Policy_Flag/DEP_Permanent_Setting status | 无法通过 WindowsApi 获取DEP相关服务状态 |
+| 5003 | SHRVTCheckerException | unable to get second level address translation extensions status | 无法获取 SLAT 二级地址转换 状态 |
+| 5003.0 | SHRVTCheckerException | an invalid parameter was output | SLAT powershell 输出了一个无效的参数 |
 
