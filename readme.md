@@ -138,4 +138,5 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 5002.2 | SHRVTCheckerException | unable to get DEP_Strategy/DEP_Policy_Flag/DEP_Permanent_Setting status | 无法通过 WindowsApi 获取DEP相关服务状态 |
 | 5003 | SHRVTCheckerException | unable to get second level address translation extensions status | 无法获取 SLAT 二级地址转换 状态 |
 | 5003.0 | SHRVTCheckerException | an invalid parameter was output | SLAT powershell 输出了一个无效的参数 |
+| 5004 | SHRVTCheckerException | unable to get VT info | 无法获取VT有关信息 |
 
