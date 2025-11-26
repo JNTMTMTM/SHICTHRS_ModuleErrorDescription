@@ -141,3 +141,12 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 5003.0 | SHRVTCheckerException | an invalid parameter was output | SLAT powershell 输出了一个无效的参数 |
 | 5004 | SHRVTCheckerException | unable to get VT info | 无法获取VT有关信息 |
 
+### SHICTHRSBrowserReader 模块
+
+| 错误代码 | 异常类 | 英文描述 | 中文描述 |
+|---------|--------|---------|---------|
+| 6000 | SHRBrowserReaderException | unable to get browser history | 无法获取浏览器历史记录 |
+| 6001 | SHRBrowserReaderException | unable to fetch browser history | 无法拉取浏览器历史记录 |
+| 6002 | SHRBrowserReaderException | unable to process browser history | 无法处理浏览器历史记录 |
+| 6003 | SHRBrowserReaderException | unable to extract keyword from browser history | 无法导出浏览器历史记录关键字 |
+| 6004 | SHRBrowserReaderException | get empty browser history | 导出了空的浏览器历史记录 |
