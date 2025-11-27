@@ -10,7 +10,7 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 
 | 模块名称 | 最新版本 | 更新时间 | 维护状态 | 项目地址 |
 |---------|--------|---------|---------|---------|
-| SHICTHRSWMICManager | 1.1.0 | 20251127 | ✅ | [SHICTHRS_WMICManager](https://github.com/JNTMTMTM/SHICTHRS_WMICManager) |
+| SHICTHRSWMICManager | 1.0.0 | 20251127 | ✅ | [SHICTHRS_WMICManager](https://github.com/JNTMTMTM/SHICTHRS_WMICManager) |
 | SHICTHRSBrowserReader | 1.1.0 | 20251126 | ✅ | [SHICTHRS_BrowserReader](https://github.com/JNTMTMTM/SHICTHRS_BrowserReader) |
 | SHICTHRSVTChecker | 1.0.0 | 20251125 | ✅ | [SHICTHRS_VTChecker](https://github.com/JNTMTMTM/SHICTHRS_VTChecker) |
 | SHICTHRSWindowsDefenderManager | 1.0.0 | 20251124 | ✅ | [SHICTHRS_WindowsDefenderManager](https://github.com/JNTMTMTM/SHICTHRS_WindowsDefenderManager) |
@@ -151,3 +151,15 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 6002 #弃用 | SHRBrowserReaderException | unable to process browser history | 无法处理浏览器历史记录 |
 | 6003 #弃用 | SHRBrowserReaderException | unable to extract keyword from browser history | 无法导出浏览器历史记录关键字 |
 | 6004 | SHRBrowserReaderException | get empty browser history | 导出了空的浏览器历史记录 |
+
+### SHICTHRSBrowserReader 模块
+
+| 错误代码 | 异常类 | 英文描述 | 中文描述 |
+|---------|--------|---------|---------|
+| 7000 | SHRWMICManagerException | unable to check wmic | 无法检查wmic状态 |
+| 7001 | SHRWMICManagerException | unable to install wmic in Windows10 | 无法在win10环境下安装wmic |
+| 7002 | SHRWMICManagerException | error occurred while installing wmic | 在win10环境下安装wmic时发生错误 |
+| 7003 | SHRWMICManagerException | unable to install wmic in Windows11 | 无法在win11环境下安装wmic |
+| 7004 | SHRWMICManagerException | error occurred while installing wmic | 在win11环境下安装wmic时发生错误 |
+| 7005 | SHRWMICManagerException | unable to uninstall wmic in Windows11 | 无法在win11环境下卸载wmic |
+| 7006 | SHRWMICManagerException | error occurred while uninstalling wmic | 在win11环境下卸载wmic时发生错误 |
