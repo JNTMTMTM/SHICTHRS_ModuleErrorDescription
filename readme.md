@@ -15,7 +15,7 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | SHICTHRSVTChecker | 1.1.0 | 20251127 | ✅ | [SHICTHRS_VTChecker](https://github.com/JNTMTMTM/SHICTHRS_VTChecker) |
 | SHICTHRSWindowsDefenderManager | 1.0.0 | 20251124 | ✅ | [SHICTHRS_WindowsDefenderManager](https://github.com/JNTMTMTM/SHICTHRS_WindowsDefenderManager) |
 | SHICTHRSENCR | 1.2.0 | 20251127 | ✅ | [SHICTHRS_ENCR](https://github.com/JNTMTMTM/SHICTHRS_ENCR) |
-| SHICTHRSMACE | 1.2.0 | 20251127 | ✅ | [SHICTHRS_MACE](https://github.com/JNTMTMTM/SHICTHRS_MACE) |
+| SHICTHRSMACE | 1.3.0 | 20251128 | ✅ | [SHICTHRS_MACE](https://github.com/JNTMTMTM/SHICTHRS_MACE) |
 | SHICTHRSLogCore  | 1.8.0 | 20251127 | ✅ | [SHICTHRS_LogCore](https://github.com/JNTMTMTM/SHICTHRS_LogCore) |
 | SHICTHRSCSVLoader  | 1.3.0 | 20251127 | ✅ | [SHICTHRS_CSVLoader](https://github.com/JNTMTMTM/SHICTHRS_CSVLoader) |
 | SHICTHRSJsonLoader  | 1.4.0 | 20251127 | ✅ | [SHICTHRS_JsonLoader](https://github.com/JNTMTMTM/SHICTHRS_JsonLoader) |
@@ -99,6 +99,9 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 | 2012 | SHRMACEException | unable to get MAC info | 网卡物理描述地址获取失败 |
 | 2013 | SHRMACEException | error occurred while getting creating threads pool | 创建异步线程池时发生错误 |
 | 2013 | SHRMACEException | error occurred while getting mace info | 获取MACE信息时发生错误 |
+| 2014 | SHRMACEException | unable to system info | 无法获取windows系统信息 |
+| 2014.0 | SHRMACEException | windows version is not supported | 不支持的windows系统版本 |
+| 2014.1 | SHRMACEException | windows version only support 10.0.22000 and above | 仅支持build 22000以上的windows版本 |
 
 ### SHICTHRSENCR 模块
 
