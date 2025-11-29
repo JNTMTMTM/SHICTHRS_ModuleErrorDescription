@@ -10,17 +10,17 @@ SHICTHRS模块错误代码与异常说明文档，为SHICTHRS系列项目提供�
 
 | 模块名称 | 最新版本 | 更新时间 | 维护状态 | 项目地址 |
 |---------|--------|---------|---------|---------|
-| SHICTHRSTimer | 1.0.0 | 20251128 | ✅ | [SHICTHRS_Timer](https://github.com/JNTMTMTM/SHICTHRS_Timer) |
-| SHICTHRSWMICManager | 1.1.0 | 20251127 | ✅ | [SHICTHRS_WMICManager](https://github.com/JNTMTMTM/SHICTHRS_WMICManager) |
-| SHICTHRSBrowserReader | 1.2.0 | 20251127 | ✅ | [SHICTHRS_BrowserReader](https://github.com/JNTMTMTM/SHICTHRS_BrowserReader) |
-| SHICTHRSVTChecker | 1.1.0 | 20251127 | ✅ | [SHICTHRS_VTChecker](https://github.com/JNTMTMTM/SHICTHRS_VTChecker) |
-| SHICTHRSWindowsDefenderManager | 1.0.0 | 20251124 | ✅ | [SHICTHRS_WindowsDefenderManager](https://github.com/JNTMTMTM/SHICTHRS_WindowsDefenderManager) |
-| SHICTHRSENCR | 1.2.0 | 20251127 | ✅ | [SHICTHRS_ENCR](https://github.com/JNTMTMTM/SHICTHRS_ENCR) |
-| SHICTHRSMACE | 1.4.0 | 20251128 | ✅ | [SHICTHRS_MACE](https://github.com/JNTMTMTM/SHICTHRS_MACE) |
-| SHICTHRSLogCore  | 1.8.0 | 20251127 | ✅ | [SHICTHRS_LogCore](https://github.com/JNTMTMTM/SHICTHRS_LogCore) |
-| SHICTHRSCSVLoader  | 1.3.0 | 20251127 | ✅ | [SHICTHRS_CSVLoader](https://github.com/JNTMTMTM/SHICTHRS_CSVLoader) |
-| SHICTHRSJsonLoader  | 1.4.0 | 20251127 | ✅ | [SHICTHRS_JsonLoader](https://github.com/JNTMTMTM/SHICTHRS_JsonLoader) |
-| SHICTHRSConfigLoader  | 1.3.0 | 20251127 | ✅ | [SHICTHRS_ConfigLoader](https://github.com/JNTMTMTM/SHICTHRS_ConfigLoader) |
+| SHICTHRSTimer | 1.1.0 | 20251129 | ✅ | [SHICTHRS_Timer](https://github.com/JNTMTMTM/SHICTHRS_Timer) |
+| SHICTHRSWMICManager | 1.2.0 | 20251129 | ✅ | [SHICTHRS_WMICManager](https://github.com/JNTMTMTM/SHICTHRS_WMICManager) |
+| SHICTHRSBrowserReader | 1.3.0 | 20251129 | ✅ | [SHICTHRS_BrowserReader](https://github.com/JNTMTMTM/SHICTHRS_BrowserReader) |
+| SHICTHRSVTChecker | 1.2.0 | 20251129 | ✅ | [SHICTHRS_VTChecker](https://github.com/JNTMTMTM/SHICTHRS_VTChecker) |
+| SHICTHRSWindowsDefenderManager | 1.1.0 | 20251129 | ✅ | [SHICTHRS_WindowsDefenderManager](https://github.com/JNTMTMTM/SHICTHRS_WindowsDefenderManager) |
+| SHICTHRSENCR | 1.3.0 | 20251129 | ✅ | [SHICTHRS_ENCR](https://github.com/JNTMTMTM/SHICTHRS_ENCR) |
+| SHICTHRSMACE | 1.5.0 | 20251129 | ✅ | [SHICTHRS_MACE](https://github.com/JNTMTMTM/SHICTHRS_MACE) |
+| SHICTHRSLogCore  | 1.9.0 | 20251129 | ✅ | [SHICTHRS_LogCore](https://github.com/JNTMTMTM/SHICTHRS_LogCore) |
+| SHICTHRSCSVLoader  | 1.4.0 | 20251129 | ✅ | [SHICTHRS_CSVLoader](https://github.com/JNTMTMTM/SHICTHRS_CSVLoader) |
+| SHICTHRSJsonLoader  | 1.5.0 | 20251129 | ✅ | [SHICTHRS_JsonLoader](https://github.com/JNTMTMTM/SHICTHRS_JsonLoader) |
+| SHICTHRSConfigLoader  | 1.4.0 | 20251129 | ✅ | [SHICTHRS_ConfigLoader](https://github.com/JNTMTMTM/SHICTHRS_ConfigLoader) |
 
 ## 模块错误代码
 
